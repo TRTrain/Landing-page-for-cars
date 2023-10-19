@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New BYD Seal CAR 2022</title>
+    <link rel="stylesheet" href="CSS\style.css">
+</head>
+<body>
+    <div class="container" id="car">
+        <nav>
+            <img src="img\BYD_Company,_Ltd._-_Logo.svg" width="10px" height="50px" class="logo">
+            <a href="#" class="btn">Test Drive</a>
+        </nav>
+
+        <div class="content">
+
+            <h2>THE BYD</h2>
+            <H1>BYD SEAL</H1>
+            <p>The front of the BYD Seal follows the X design concept, with the impressive and dynamic waistline, fully illustrating the combination of the sport and style.</p>
+            <h3>Choose your color</h3>
+            <div class="color-select">
+              <div id="black"></div>
+              <div id="green"></div>
+              <div id="blue"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+    let blackBtn = document.getElementById("black")        
+    let greenBtn = document.getElementById("green")        
+    let blueBtn = document.getElementById("blue")    
+    let car =  document.getElementById("car")    
+
+    blackBtn.onclick = function(){
+    car.style.backgroundImage = "url(https://www.car250.com/wp-content/uploads/2022/10/BYD-SEAL-COLOR-13.jpg)"
+    }
+
+    greenBtn.onclick = function(){
+    car.style.backgroundImage = "url(https://www.car250.com/wp-content/uploads/2022/10/BYD-SEAL-COLOR-15.jpg)"
+    }
+
+    blueBtn.onclick = function(){
+    car.style.backgroundImage = "url(https://www.car250.com/wp-content/uploads/2022/10/BYD-SEAL-COLOR-11.jpg)"
+    }
+
+    </script>
+
+</body>
+</html>
